@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="utf-8" />
+<head>
+    <title>Elementos Semánticos</title>
+    <style>
+        p, h1, h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        mark{
+            background-color: yellow;
+            color:black;
+        }
+        footer{
+            background-color: orangered;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Section---->
+    <h1>Section</h1>
+    <section>
+        <h2>Section 1 "¿Qué es section?"</h2>
+        <p>El elemento de HTML section representa una sección genérica "Esto es un ejemplo de ello"<br>
+            de un documento. Sirve para determinar qué contenido corresponde a qué parte<br>
+            de un esquema. Piensa en el esquema como en el índice de contenido de un libro;<br>
+            un tema común y subsecciones relacionadas. Es, por lo tanto, una etiqueta semántica.
+    </section>
+    <section>
+        <h2>Section 2 "Los camellos"</h2>
+        <p>El camello es un animal mamífero y herbívoro. Tiene cuatro patas largas <br>
+            y delgadas, su cabeza, en proporción al cuerpo es pequeña, sus orejas <br>
+            son diminutas y sus ojos saltones.Su voluminoso cuerpo está cubierto <br>
+            de finos y largos pelos que suele mudar por primavera.</p>
+    </section>
+    <!-------Article------>
+    <h1>Article</h1>
+    <article>
+        <h2>Para que usamos Article?</h2>
+        <p>El elemento article puede ser utilizado en conjunto con otros elementos como header , footer<br> 
+            y time para agregar información acerca de su contenido. Esta información puede ser utilizada,<br> 
+            por ejemplo, por navegadores o lectores de noticias.</p>
+    </article>
+    
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+        
+    <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+    </article>
+<!-----Header-->
+<h1>Header</h1>
+    <header><h2>Uso del Header</h2></header>
+    <p>La etiqueta "header" en HTML se utiliza para contener información de encabezado de un documento o sección.<br> 
+        El contenido dentro de la etiqueta "header" suele incluir elementos como el título de la página, el logotipo,<br> 
+        la navegación y otros elementos de encabezado relacionados.</p>
+    <!-------Nav----->
+    <h1>Nav</h1>
+    
+    <p>El elemento HTML "nav" representa una sección de una página cuyo propósito es proporcionar enlaces de navegación,<br> 
+        ya sea dentro del documento actual o a otros documentos.</p>
+        <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/jquery/">jQuery</a>
+          </nav>
+    <!---------Figure && Figcaption------>
+    <h1>Figure</h1>
+    <p>El elemento HTML "figure" representa contenido independiente, a menudo con un título.</p>
+    <h1>Figcaption</h1>
+    <p>El elemento HTML "figcaption" representa un subtítulo o leyenda asociado al contenido del elemento<br> 
+        padre "figure" , pudiendo ser colocado como primer o último hijo.</p>
+        <figure>
+            <img src="Notion.png" alt="The Rare Ocassions">
+            <figcaption>Fig1. - Notion - The Rare Ocassions.</figcaption>
+          </figure>
+
+    <!-------Details------->
+    <h2>Details</h2>
+
+    <p>El elemento HTML Details "details" es usado como un widget de revelación a través del cual el usuario puede obtener información adicional </p>
+    <!-------Summary------->
+    <h2>Summary</h2>
+
+    <p>La etiqueta "summary" define un texto visible para el elemento details. En el texto se puede hacer clic para ver/ocultar los detalles.</p>
+    
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details>
+    <!-------Main------->
+    <h1>Main</h1>
+
+    <p>El elemento HTML "main" representa el contenido principal del "body" de un documento o aplicación.</p>
+    <main>
+        <h1>Most Popular Browsers</h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+      
+        <article>
+          <h2>Google Chrome</h2>
+          <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+      
+        <article>
+          <h2>Mozilla Firefox</h2>
+          <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+      
+        <article>
+          <h2>Microsoft Edge</h2>
+          <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+        </article>
+      </main>
+    <!-------Mark------->
+    <h1>Mark</h1>
+
+    <p>The night will hold us close<br>
+        And the <mark>stars</mark> will guide us home<br>
+        I've been waiting for this moment<br>
+        We're finally alone</p>
+    <p>Marca un <mark>elemento</mark> de un texto</p>
+    <!-------Time------->
+    <h1>Time</h1>
+    <p>El elemento HTML "time" representa un periodo específico en el tiempo. Puede incluir el atributo datetime<br> 
+        para convertir las fechas en un formato interno legible por un ordenador, permitiendo mejores resultados en<br>
+        los motores de búsqueda o características personalizadas como recordatorios.</p>
+    
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+    <!--Footer--------------------->    
+    <h2>Footer</h2>
+        <p>Este se usa para poner los datos del creador de la página, información de contacto o derecchos de uso</p>
+    <!-----Aside-->
+    <h2>Aside</h2>
+        <p>El elemento HTML "aside" representa una sección de una página que consiste en contenido que está<br> 
+        indirectamente relacionado con el contenido principal del documento "En este ejemplo se encuentra en el footer".</p>
+    <footer>
+        <aside>
+        <hr>
+        <table style="width:100%">
+            <tr>
+                <th><blockquote>&copy; Palau Andrade Arturo </blockquote></th>
+                <th rowspan="3"><blockquote><img src="UPSLP.jpg" alt="UPSLP" width="150" height="140" style="vertical-align:middle"></blockquote></th>
+                <th style="width: 50%"></th>
+            </tr>
+            <tr>
+                <td><blockquote>Matrícula: 178561</blockquote></td>
+            </tr>
+            <tr>
+                <td><blockquote>Programación Web 1</blockquote></td>
+            </tr>
+        </table>
+        </aside>
+    </footer>
+</body>
+</html>
